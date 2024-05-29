@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        <h1>Ask a Question</h1>
+        <div id="question-form">
+            <textarea id="question-input" placeholder="Type your question here..."></textarea>
+            <button id="submit-btn" class="btn">Submit</button>
+        </div>
+        <div id="response-container">
+            <h2>Response</h2>
+            <div id="response"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
